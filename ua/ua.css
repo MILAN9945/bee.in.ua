@@ -1,5 +1,4 @@
 .container {
-    width: 1440px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -21,6 +20,22 @@
     align-items: center;
     margin-left: 24px;
     margin-right: 104px;
+}
+
+.header-link {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    color: #87898c;
+}
+
+.header-link-nav {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 162%;
+    letter-spacing: 0.03em;
+    color: #000;
 }
 
 .heder-list {
@@ -73,6 +88,12 @@
     gap: 11px;
 }
 
+.hero-img {
+    border-radius: 4px;
+    width: 586px;
+    height: 391px;
+}
+
 .hero-zsy:first-child {
     font-weight: 400;
     font-size: 17px;
@@ -92,6 +113,13 @@
     font-size: 31px;
     line-height: 123%;
     text-align: center;
+    color: #4f4f4f;
+}
+
+.hero-4g {
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 120%;
     color: #4f4f4f;
 }
 
