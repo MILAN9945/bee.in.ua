@@ -9,7 +9,7 @@ p {
 }
 
 a {
- 
+ font-family: inherit;
     text-decoration: none;
 }
 
