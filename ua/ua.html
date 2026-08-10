@@ -4,68 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="./ua.css">
     <title>Document</title>
 </head>
 
 <body>
     <header class="header">
-        <a href="./ua.html" class="header-logo">
-            <img class="header-img" src="./ua.img/header-logo.webp" alt="logo">
-        </a>
-        <ul class="header-languages">
-            <li class="language">EN</li>
-            <li class="language">UA</li>
-            <li class="language">RU</li>
-        </ul>
-        <ul class="heder-list">
-            <li class="header-item">Головна</li>
-            <li class="header-item">Ціни</li>
-            <li class="header-item">SMS-команди</li>
-            <li class="header-item">Статті</li>
-            <li class="header-item">Демо</li>
-            <li class="header-item">Контакти</li>
-        </ul>
-        <ul class="header-navs">
-            <li class="header-nav"><a class="header-login" href="">Увійти</a></li>
-            <li class="header-nav"><a class="header-singin" href="">Зареєструватися</a></li>
-        </ul>
+        <div class="container header-container">
+            <a href="./ua.html" class="header-logo">
+                <img class="header-img" src="./ua.img/header-logo.webp" alt="logo">
+            </a>
+            <ul class="header-languages">
+                <li class="language"> <a href="" class="header-link">EN</a></li>
+                <li class="language"> <a href="" class="header-link">UA</a></li>
+                <li class="language"> <a href="" class="header-link">RU</a></li>
+            </ul>
+            <ul class="heder-list">
+                <li class="header-item">Головна</li>
+                <li class="header-item">Ціни</li>
+                <li class="header-item">SMS-команди</li>
+                <li class="header-item">Статті</li>
+                <li class="header-item">Демо</li>
+                <li class="header-item">Контакти</li>
+            </ul>
+            <ul class="header-navs">
+                <li class="header-nav"><a class="header-login" href="">Увійти</a></li>
+                <li class="header-nav"><a class="header-singin" href="">Зареєструватися</a></li>
+            </ul>
+        </div>
     </header>
     <main class="main">
         <section class="hero">
-            <h4 class="hero-zsy">Віримо в перемогу ЗСУ!</h4>
-            <h4 class="hero-zsy">Працюємо з 09:00 до 18:00 Пн-Пт.</h4>
-            <h4 class="hero-zsy">Зараз можливі затримки з відправкою замовлення - в середньому 2-3 тиждні.</h4>
+            <div class="container">
+                <ul class="hero-listzsy">
+                    <h4 class="hero-zsy">Віримо в перемогу ЗСУ!</h4>
+                    <h4 class="hero-zsy">Працюємо з 09:00 до 18:00 Пн-Пт.</h4>
+                    <h4 class="hero-zsy">Зараз можливі затримки з відправкою замовлення - в середньому 2-3 тиждні.</h4>
+                </ul>
 
-            <h1 class="hero-title">Медозбір як на долонях!</h1>
+                <h1 class="hero-title">Медозбір як на долонях!</h1>
 
-            <div class="hero-box">
-                <img src="" alt="">
-                <div class="hero-subbox">
-                    <h2 class="hero-title">Пасічні ваги 4G LTE та Wi-Fi купити в Україні</h2>
-                    <ul class="hero-list">
-                        <li class="hero-item">
-                            <h3 class="hero-subtitle">Збір і передача параметрів</h3>
-                            <p class="hero-text">Наші пристрої BH-01 (для одного вулика) та BH-04 (для чотирьох вуликів)
-                                дозволяють у реальному часі фіксувати вагу, температуру та інші параметри
-                                пасіки. Дані автоматично передаються на веб-сервер bee.in.ua через 4G LTE
-                                або Wi-Fi, щоб ви могли стежити за медозбором онлайн. Інструкція ></p>
-                        </li>
-                        <li class="hero-item">
-                            <h3 class="hero-subtitle">Автономність</h3>
-                            <p class="hero-text">Пасічні ваги BH-01 і BH-04 спроєктовані для тривалої роботи без
-                                постійного
-                                обслуговування. Економне енергоспоживання та вбудований акумулятор
-                                забезпечують автономність і надійність — пристрій працює тижнями без
-                                підзарядки.</p>
-                        </li>
-                        <li class="hero-item">
-                            <h3 class="hero-subtitle">Віддалений контроль</h3>
-                            <p class="hero-text">Підтримка 4G LTE та Wi-Fi дозволяє встановлювати ваги практично в будь-
-                                якій точці України. Ви можете залишати вулики без постійної присутності та
-                                отримувати дані про стан пасіки з будь-якої країни, де є інтернет.</p>
-                        </li>
-                    </ul>
+                <div class="hero-box">
+                    <img src="./ua.img/hero-img.webp" alt="ваги">
+                    <div class="hero-subbox">
+                        <h2 class="hero-title">Пасічні ваги 4G LTE та Wi-Fi купити в Україні</h2>
+                        <ul class="hero-list">
+                            <li class="hero-item">
+                                <h3 class="hero-subtitle">Збір і передача параметрів</h3>
+                                <p class="hero-text">Наші пристрої BH-01 (для одного вулика) та BH-04 (для чотирьох
+                                    вуликів)
+                                    дозволяють у реальному часі фіксувати вагу, температуру та інші параметри
+                                    пасіки. Дані автоматично передаються на веб-сервер bee.in.ua через 4G LTE
+                                    або Wi-Fi, щоб ви могли стежити за медозбором онлайн. Інструкція ></p>
+                            </li>
+                            <li class="hero-item">
+                                <h3 class="hero-subtitle">Автономність</h3>
+                                <p class="hero-text">Пасічні ваги BH-01 і BH-04 спроєктовані для тривалої роботи без
+                                    постійного
+                                    обслуговування. Економне енергоспоживання та вбудований акумулятор
+                                    забезпечують автономність і надійність — пристрій працює тижнями без
+                                    підзарядки.</p>
+                            </li>
+                            <li class="hero-item">
+                                <h3 class="hero-subtitle">Віддалений контроль</h3>
+                                <p class="hero-text">Підтримка 4G LTE та Wi-Fi дозволяє встановлювати ваги практично в
+                                    будь-
+                                    якій точці України. Ви можете залишати вулики без постійної присутності та
+                                    отримувати дані про стан пасіки з будь-якої країни, де є інтернет.</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>

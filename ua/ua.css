@@ -1,0 +1,136 @@
+.container {
+    width: 1440px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid red;
+}
+
+
+/* секція header */
+
+.header-container {
+    display: flex;
+    padding: 17px 0px 18px;
+}
+
+.header-languages {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 104px;
+}
+
+.heder-list {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.header-navs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header-login {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 157%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #ffa762;
+
+    padding: 20px 16px 21px 17px;
+    border: 1px solid #ffa762;
+    border-radius: 4px;
+}
+
+.header-singin {
+    border: 1px solid #ffa762;
+    border-radius: 4px;
+    background: #ffa762;
+    padding: 20px 16px 21px 17px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 152%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #fff;
+}
+
+/* секція hero */
+
+.hero-listzsy {
+    padding: 43px 0px 39px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.hero-zsy:first-child {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 161%;
+    color: #00f;
+}
+
+.hero-zsy {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 166%;
+    color: #ffa500;
+}
+
+.hero-title {
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 123%;
+    text-align: center;
+    color: #4f4f4f;
+}
+
+.hero-box {
+    display: flex;
+    gap: 133px;
+    padding: 88px 0px 0px;
+}
+
+.hero-list {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding-top: 42px;
+}
+
+.hero-subtitle {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 123%;
+    color: #4f4f4f;
+    padding-bottom: 14px;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #4f4f4f;
+}
+
+.hero-text:nth-child(1) {
+    max-width: 687px;
+}
+
+.hero-text:nth-child(2) {
+    max-width: 678px;
+}
+
+.hero-text:nth-child(3) {
+    max-width: 676px;
+}
