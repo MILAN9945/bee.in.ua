@@ -177,6 +177,7 @@ body {
 
 .advantages {
     padding-top: 63px;
+    padding-bottom: 56px;
 }
 
 .advantages-title {
@@ -305,4 +306,70 @@ body {
     text-align: center;
     color: #4f4f4f;
     opacity: 0.85;
+}
+
+/* секція information */
+
+.information {
+    padding-top: 64px;
+}
+
+.information-title {
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 124%;
+    color: #4f4f4f;
+
+    margin-bottom: 43px;
+}
+
+.information-box {
+    display: flex;
+    gap: 43px;
+}
+
+.information-list {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.information-subtitle {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 121%;
+    color: #4f4f4f;
+
+    margin-bottom: 14px;
+}
+
+.information-text {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 162%;
+    color: #4f4f4f;
+}
+
+.information-text1 {
+    max-width: 677px;
+}
+
+.information-text2 {
+    max-width: 681px;
+}
+
+.information-text3 {
+    max-width: 682px;
+}
+
+.information-text4 {
+    max-width: 616px;
+}
+
+
+
+.information-img {
+    border-radius: 4px;
+    width: 586px;
+    height: 422px;
 }
