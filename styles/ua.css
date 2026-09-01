@@ -312,6 +312,7 @@ body {
 
 .information {
     padding-top: 64px;
+    padding-bottom: 62px;
 }
 
 .information-title {
@@ -372,4 +373,54 @@ body {
     border-radius: 4px;
     width: 586px;
     height: 422px;
+}
+
+/* секція sensor */
+
+.sensor {
+    padding-top: 63px;
+}
+
+.sensor-container {
+    display: flex;
+    gap: 134px;
+}
+
+.sensor-img {
+    margin-top: 120px;
+}
+
+.sensor-title {
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 124%;
+    color: #4f4f4f;
+    margin-bottom: 42px;
+}
+
+.sensor-list {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.sensor-subtitle {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 123%;
+    color: #4f4f4f;
+    margin-bottom: 13px;
+}
+
+.sensor-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #4f4f4f;
+
+    max-width: 680px;
+}
+
+.sensor-text:nth-child(2) {
+    max-width: 675px;
 }
