@@ -424,3 +424,63 @@ body {
 .sensor-text:nth-child(2) {
     max-width: 675px;
 }
+
+/* form */
+
+.form-title {
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 123%;
+    text-align: center;
+    color: #4f4f4f;
+    margin-top: 64px;
+}
+
+.form-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    text-align: center;
+    color: #4f4f4f;
+
+    margin: 42px 0px 24px 0px;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.table-header,
+.table-row {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1.3fr 1.3fr 1fr 1fr 150px;
+}
+
+.table-header {
+    background: #304b61;
+    color: white;
+    font-weight: bold;
+}
+
+.table-header div,
+.table-row div {
+    padding: 18px 12px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.table-row {
+    min-height: 80px;
+}
+
+button {
+    background: #20b457;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
