@@ -491,6 +491,10 @@ button {
 
 /* секція instrument */
 
+.instrument-cont {
+    display: flex;
+}
+
 .instrument-title {
     font-weight: 500;
     font-size: 31px;
@@ -519,4 +523,63 @@ button {
     line-height: 166%;
     color: #4f4f4f;
     max-width: 661px;
+}
+
+/* секція trend  */
+
+.trend {
+    padding-top: 64px;
+}
+
+.trend-container {
+    display: flex;
+    gap: 134px;
+}
+
+.trend-img {
+ margin-top: 120px;
+ margin-bottom: 239px;
+}
+
+.trend-title {
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 124%;
+    color: #4f4f4f;
+    margin-bottom: 42px;
+}
+
+.trend-list {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.trend-subtitle {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 123%;
+    color: #4f4f4f;
+    margin-bottom: 14px;
+}
+
+.trend-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #4f4f4f;
+}
+
+.trend-other-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 23px;
+}
+
+.trend-other-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    color: #4f4f4f;
 }
