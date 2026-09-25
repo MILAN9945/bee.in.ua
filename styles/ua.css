@@ -537,8 +537,8 @@ button {
 }
 
 .trend-img {
- margin-top: 120px;
- margin-bottom: 239px;
+    margin-top: 120px;
+    margin-bottom: 239px;
 }
 
 .trend-title {
@@ -582,4 +582,107 @@ button {
     font-size: 18px;
     line-height: 165%;
     color: #4f4f4f;
+}
+
+
+/* секція gps */
+
+.gps-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 124%;
+    color: #4f4f4f;
+    margin-bottom: 43px;
+}
+
+.gps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-bottom: 22px;
+}
+
+.gps-subtitle {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 124%;
+    color: #4f4f4f;
+    margin-bottom: 14px;
+}
+
+.gps-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    color: #4f4f4f;
+    max-width: 642px;
+}
+
+.gps-sublist {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-left: 40px;
+}
+
+.gps-subtext {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    color: #4f4f4f;
+}
+
+/* section graphik */
+
+.graphik-container {
+    display: flex;
+    gap: 134px;
+}
+
+.graphik-img {
+    margin-top: 120px;
+    margin-bottom: 86px;
+}
+
+.graphik-list {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-bottom: 23px;
+}
+
+.graphik-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 124%;
+    color: #4f4f4f;
+    margin-bottom: 43px;
+}
+
+.graphik-text {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 160%;
+    color: #4f4f4f;
+}
+
+.graphik-subtitle {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 123%;
+    color: #4f4f4f;
+    margin-bottom: 14px;
+}
+
+.graphik-subtext {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #4f4f4f;
+}
+
+.graphik-sublist {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
 }
