@@ -686,3 +686,74 @@ button {
     flex-direction: column;
     margin-left: 40px;
 }
+
+/* energy */
+
+.energy-title {
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 123%;
+    color: #4f4f4f;
+
+    margin-bottom: 43px;
+}
+
+.energy-list {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.energy-subtitle {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 124%;
+    color: #4f4f4f;
+
+    margin-bottom: 14px;
+}
+
+.energy-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #4f4f4f;
+    max-width: 678px;
+}
+
+
+/* management */
+
+.management-container {
+    display: flex;
+    gap: 134px;
+}
+
+.management-title {
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 124%;
+    color: #4f4f4f;
+}
+
+.management-list {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.management-subtitle {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 122%;
+    color: #4f4f4f;
+    margin-bottom: 14px;
+}
+
+.management-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    color: #4f4f4f;
+    max-width: 661px;
+}
